@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    background: rgb(0,0,0);
+    background: linear-gradient(86deg, rgba(0,0,0,1) 0%, rgba(19,27,63,1) 57%, rgb(46, 86, 132) 100%, rgba(0,212,255,1) 100%);     
+}
+
+.header{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      height: 40px;
+      
+}
+span{
+    color: aqua;
+}
+.log{
+    color: #ffffff;
+    font-size: 22px;
+    font-family:Dosis;
+    font-weight: 900;
+    letter-spacing: 8px;
+
+}
+
+
+
+li{
+    display: inline;
+    padding: 10px;
+    margin: 10px;
+    justify-content: right;
+    font-family: Dosis;
+    font-weight: 700;
+    font-size: 20px;
+}
+li,a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.nav-link{
+    margin-left: 100px;
+}
+.nav-link li a:hover{
+    color: aqua;
+    font-size: 22px;
+    transition: all 0.5s ease-in-out;
+}
+.btn{
+    
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: 1px solid aqua;
+    font-family: 'Dosis';
+    letter-spacing: .2rem;
+    font-weight: 700;
+    margin-top: 5px;
+    border-radius: 4px;
+    background: #0a7c7c;
+    background-color: Transparent;
+    box-shadow: 0 10px 20px rgba(1, 233, 194, 0.4);
+}
+.first-sec{
+    display: flex;
+}
+.text-part{
+    width: 50%;
+    margin-left: 8%;
+    margin-top: 5%;
+}
+.iam{
+    color: #ffffff;
+    font-family: Dosis;
+    font-size: 50px;
+}
+.text{
+    font-size: 25px;
+    color: aliceblue;
+    font-family: Dosis;  
+    width: 85%;
+    margin-top: 25px;
+}
+.image-part{
+    width: 50%;
+}
+.me
+{
+  width: 65%;
+  margin: 20px 65px;
+}
+
+.codewith{
+    color: aqua;
+    font-family: Dosis;
+    font-weight: 100;
+}
+.who{
+    color: #ffffff;
+    font-size: 30px;
+}
+.hire
+{
+    font-family: Dosis;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.8);
+    background: rgb(145, 92, 182);
+    padding: 10px 25px;
+    border:1px solid aqua;
+    border-radius: 4px;
+    font-weight: 500;
+    transition: all 0.2s ease-in-out;
+    background-color: Transparent;
+    box-shadow: 0 10px 20px rgba(1, 233, 194, 0.4);
+
+}
+.hire:hover{
+    font-size:18px ;
+    box-shadow: 0 10px 20px rgba(82, 180, 163, 0.701);
+
+}
+.hirebtn
+{
+  margin: 25px 0px 20px 0px;
+}
+.button-1{
+  margin-top: 10px;
+}
+.icons{
+    font-size: 40px;
+    margin-top: 30px;
+}
+.icons a{
+    margin: 4px;
+}
+.icons a,li{
+    color: rgb(127, 227, 227);
+}
+.icons a:hover{
+    transition: all 0.5s ease-in-out;
+    color: #1dd2d2;
+    font-size: 45px;
+}
+
+.about-sec{
+    margin-top: 120px;
+}
+
+.for-border{
+    display: flex;
+    border: 1px solid aqua;
+  padding: 15px;
+  margin: 0px 50px;
+  border-radius: 30px;
+}
+.about-text{
+    width: 50%;
+    margin: 35px 40px;
+  padding: 25px 0px;
+}
+.about-imag{
+    width: 50%;
+}
+.me2{
+    margin: 10px 150px;
+  height: 80%;
+  border: 1px solid aqua;
+  border-radius: 60px;
+  box-shadow: 0 0 45px 0px #48abe0;
+  margin-top: 42px;
+}
+.abt
+{
+  color: aqua;
+  text-align: center;
+  font-family: Dosis;
+  font-size: 45px;
+}
+.abt-text
+{
+    color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    padding: 15px 70px;
+}
+hr {
+    margin: 6px 230px;
+  box-shadow: aqua;
+  box-shadow: 0px 0 12px 2px #48abe0;
+}
