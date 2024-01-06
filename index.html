@@ -1,115 +1,75 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <script src="https://kit.fontawesome.com/a35a3d4889.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal WebSite</title>
-    <style>
-
-        @import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@700&display=swap');
-        
-        *{margin: 0;
-        padding: 0;
-    }
-    .main{
-
-        
-        max-width: 1200px;
-        margin: auto;
-        font-family: 'Anton', sans-serif;
-
-
-    }
-    .morsalin{
-
-       text-align: center;
-       overflow: hidden;
-       background-color: rgb(40, 58, 58);
-       color: rgb(250, 90, 16);
-       padding: 10px;
-    
-    }
-    .morsalin:hover{
-        color: rgb(236, 34, 34);
-    }
-    .links{
-        max-width: 1200px;
-        border-bottom: 1px solid black;
-        background-color: azure;
-    }
-    .icons_links{
-        padding-left: 400px;
-
-    }
-    .icons_links,a{
-        
-        font-size: 30px;
-        margin-left:40px;
-      
-        
-     }
-     .text{
-        text-align: center;
-        margin-top: 20px;
-        font-size: 20px;
-    }
-    .achivement{
-        text-align: center;
-        padding-top: 5px;
-    
-    }
-    .achivement h2{
-        border-bottom: dotted;
-    }
-    .achivement .hof{
-
-        font-size: 20px;
-        text-decoration: none;
-        margin: auto;
-        padding-left: 1px;    
-    }
-    footer{
-        text-align: center;
-        margin-top: 1300px;
-    }   
-  
-
-
-
-
-    </style>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <title>Portfolio | Morsalin</title>
 </head>
 <body>
-    <div class="main">
-     <div class="morsalin">
-       <h1> Hi,I am MORSALIN</h1>
-        <h3 style="color: rgb(220, 86, 15); float: right;">A solo Learner</h3>
-    </div>
-    <div class="links">
-    <div class="icons_links">
-        <a target="blank" href="#"><i class="fa-brands fa-facebook"></i></a>
-        <a target="blank" href="#"><i class="fa-solid fa-envelope"></i></a>
-        <a target="blank" href="#"><i class="fa-brands fa-twitter"></i></a>
-        <a target="blank" href="#"><i class="fa-brands fa-github"></i></a>
-    </div>
-   </div>
     
-    <div class="text">
-    <p>I like to break web security.AM passonate about Web Hacking</p>
-   <hr>
-</div>
-    <div class="achivement">
-        <h2>some of my works</h2>
-        <li>Hall of fame:<a class="hof" href="https://bugcrowd.com/tripadvisor-bb-og/hall-of-fame">tripadvisor</a></li>
-        <li>Hall of fame:<a class="hof" href="https://bugcrowd.com/tripadvisor-bb-og/hall-of-fame">viator</a></li>
-        <li>Hall of fame:<a class="hof" href="https://bugcrowd.com/tripadvisor-bb-og/hall-of-fame">westerunion</a></li>
-    </div>
+        <!--- header -->
+        <div class="header">
+            <div class="logo">
+                <p class="log"><span>MOR</span>SALIN</p>
+            </div>
+            <div class="nav-link">
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SKILLS</a></li>
+                <li><a href="#">BLOG</a></li>
+            </div>
+            <div class="button-1">
+                <a class="btn" href="#">CONTACT</a>
+            </div>
+        </div>
 
-<footer>
-   &copy;copyright
-</footer>
-    </div>    
+        <!--- main body -->
+
+        <div class="container">
+
+            <div class="first-sec">
+                <div class="text-part">
+                    <h1 class="codewith">CODEWITHME</h1>
+                    <h2 class="iam"><span>I am</span> Morsalin</h2>
+                    <h2 class="who"><span>A</span> Professional Web Developer</h2>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, veniam dolor! Nemo, beatae facilis repellendus, porro ex nobis, voluptate quae odio consequatur enim est minima quaerat at reprehenderit sit eaque.</p>
+                    <div class="hirebtn">
+                        <a class="hire" href="#">HIRE ME</a>
+                    </div> 
+                    <div class="icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="image-part">
+                    <img class="me" src="images/developer.png">
+                </div>
+            </div>
+        
+            <div class="about-sec">
+                <div class="for-border">
+                <div class="about-text">
+                    <h1 class="abt">ABOUT ME</h1>
+                    <hr style="padding:0px 20px ;">
+                    <p class="abt-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ullam sunt facilis sapiente recusandae dolores laborum voluptate labore, quibusdam explicabo dolore exercitationem eos assumenda magnam doloremque veritatis blanditiis illo natus.</p>
+                </div>
+                <div class="about-imag">
+                    <img class="me2" src="images/me.png">
+                </div>
+            </div>
+        </div>
+        </div>
+        
+
+        <!--- footer -->
+        <div class="footer">
+
+        </div>
+
+    <script src="https://kit.fontawesome.com/a35a3d4889.js" crossorigin="anonymous"></script>
 </body>
 </html>
