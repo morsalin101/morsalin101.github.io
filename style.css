@@ -9,6 +9,7 @@
 body{
     background: rgb(0,0,0);
     background: linear-gradient(86deg, rgba(0,0,0,1) 0%, rgba(19,27,63,1) 57%, rgb(46, 86, 132) 100%, rgba(0,212,255,1) 100%);     
+    background-repeat: no-repeat;
 }
 
 .header{
@@ -30,12 +31,15 @@ span{
 
 }
 
-
+.logo{
+    font-family: Dosis;
+    letter-spacing: 5px;
+    
+}
 
 li{
     display: inline;
-    padding: 10px;
-    margin: 10px;
+   
     justify-content: right;
     font-family: Dosis;
     font-weight: 700;
@@ -45,8 +49,8 @@ li,a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
-.nav-link{
-    margin-left: 100px;
+a.nav-link.text-white {
+    margin-right: 45px;
 }
 .nav-link li a:hover{
     color: aqua;
@@ -72,7 +76,7 @@ li,a{
     display: flex;
 }
 .text-part{
-    width: 50%;
+    width: 100%;
     margin-left: 8%;
     margin-top: 5%;
 }
@@ -89,7 +93,7 @@ li,a{
     margin-top: 25px;
 }
 .image-part{
-    width: 50%;
+    width: 100%;
 }
 .me
 {
@@ -149,27 +153,26 @@ li,a{
     font-size: 45px;
 }
 
-.about-sec{
-    margin-top: 120px;
-}
+
 
 .for-border{
     display: flex;
     border: 1px solid aqua;
   padding: 15px;
-  margin: 0px 50px;
+  margin: 5% 5%;
   border-radius: 30px;
 }
 .about-text{
-    width: 50%;
-    margin: 35px 40px;
+    width: 100%;
+    margin: auto auto;
   padding: 25px 0px;
 }
 .about-imag{
-    width: 50%;
+    width: 100%;
+    padding: 5%;
 }
 .me2{
-    margin: 10px 150px;
+    margin: auto auto;
   height: 80%;
   border: 1px solid aqua;
   border-radius: 60px;
