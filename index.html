@@ -5,31 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <title>Portfolio | Morsalin</title>
 </head>
 <body>
-    
-        <!--- header -->
-        <div class="header">
-            <div class="logo">
-                <p class="log"><span>MOR</span>SALIN</p>
-            </div>
-            <div class="nav-link">
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">SKILLS</a></li>
-                <li><a href="#">BLOG</a></li>
-            </div>
-            <div class="button-1">
-                <a class="btn" href="#">CONTACT</a>
-            </div>
+<div class="container">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white text-bold logo" href="#"><span>MOR</span>SALIN</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mr-2">
+                <a class="nav-link  text-white" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-white" href="#"></a>
+              </li>
+            </ul>
+          </div>
         </div>
-
-        <!--- main body -->
-
-        <div class="container">
-
-            <div class="first-sec">
+      </nav>
+    <div class="row">
+            <div class="col-lg-6">
                 <div class="text-part">
                     <h1 class="codewith">CODEWITHME</h1>
                     <h2 class="iam"><span>I am</span> Morsalin</h2>
@@ -45,18 +52,25 @@
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                     </div>
                 </div>
+            </div>
+            <div class="col-lg-6">
                 <div class="image-part">
                     <img class="me" src="images/developer.png">
                 </div>
             </div>
+        </div>
         
-            <div class="about-sec">
+            
                 <div class="for-border">
+                    <div class="row">
+                    <div class="col-lg-6">
                 <div class="about-text">
-                    <h1 class="abt">ABOUT ME</h1>
+                    <h1 class="abt text-bold">ABOUT ME</h1>
                     <hr style="padding:0px 20px ;">
-                    <p class="abt-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ullam sunt facilis sapiente recusandae dolores laborum voluptate labore, quibusdam explicabo dolore exercitationem eos assumenda magnam doloremque veritatis blanditiis illo natus.</p>
+                    <p class="abt-text text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, ullam sunt facilis sapiente recusandae dolores laborum voluptate labore, quibusdam explicabo dolore exercitationem eos assumenda magnam doloremque veritatis blanditiis illo natus.</p>
                 </div>
+            </div>
+                <div class="col-lg-6 ">
                 <div class="about-imag">
                     <img class="me2" src="images/me.png">
                 </div>
@@ -64,6 +78,13 @@
         </div>
         </div>
         
+        <div class="row">
+          <div class="col-lg-4">
+            
+          </div>
+
+
+        </div>
 
         <!--- footer -->
         <div class="footer">
@@ -71,5 +92,7 @@
         </div>
 
     <script src="https://kit.fontawesome.com/a35a3d4889.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>
