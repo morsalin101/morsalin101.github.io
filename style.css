@@ -198,3 +198,21 @@ hr {
   box-shadow: aqua;
   box-shadow: 0px 0 12px 2px #48abe0;
 }
+.text-center.skl-txt
+{
+  font-family: Dosis;
+  font-weight: 800;
+  color: aqua;
+}
+.card.p-3.mb-1
+{
+    background: #1a616136;
+    color: white;
+    box-shadow: 5px -3px 12px rgb(32, 223, 180);
+  
+}
+
+.icn{
+    font-size: 35px;
+   
+}
