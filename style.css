@@ -158,8 +158,8 @@ a.nav-link.text-white {
 .for-border{
     display: flex;
     border: 1px solid aqua;
-  padding: 15px;
-  margin: 5% 5%;
+  padding: 10px;
+
   border-radius: 30px;
 }
 .about-text{
@@ -172,12 +172,12 @@ a.nav-link.text-white {
     padding: 5%;
 }
 .me2{
-    margin: auto auto;
+    margin: 12% auto;
   height: 80%;
   border: 1px solid aqua;
   border-radius: 60px;
   box-shadow: 0 0 45px 0px #48abe0;
-  margin-top: 42px;
+ 
 }
 .abt
 {
@@ -204,7 +204,7 @@ hr {
   font-weight: 800;
   color: aqua;
 }
-.card.p-3.mb-1
+.card.p-3.mb-2
 {
     background: #1a616136;
     color: white;
